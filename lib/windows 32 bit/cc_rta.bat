@@ -1,0 +1,1 @@
+gcc -o%1.exe %1.c rtalib.c wav.c libportaudio.dll.a -lm

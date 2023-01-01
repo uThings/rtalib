@@ -1,0 +1,48 @@
+
+/* sirena polizia 1 */
+real_time_flanger 2 50 100 s
+
+/* sirena polizia 2 */
+real_time_flanger 2 50 100 t
+
+
+/* decollo aereo 1 */
+real_time_flanger 0.2 5
+
+/* decollo aereo 2 */
+real_time_flanger 0.2 5 50 t
+
+
+/* flanger profondo voce 1 */
+real_time_flanger 0.5 500 100
+
+/* flanger profondo voce 2 */
+real_time_flanger 0.5 1000 100
+
+
+/* chitarra originale */
+play_flanger guitar.wav 0 0 0
+
+/* flanger chitarra */
+play_flanger guitar.wav 0.2 20
+
+/* flanger profondo chitarra */
+play_flanger guitar.wav 0.4 200 100
+
+
+/* musica originale */
+play_flanger Viva.wav 0 0 0
+
+/* flanger musica */
+play_flanger Viva.wav 0.2 5
+
+/* flanger veloce musica - radio distorta*/
+play_flanger Viva.wav 1000 1
+
+
+/* musica originale */
+play_flanger "La Bouche - Be my lover.wav" 0 0 0
+
+/* flanger musica */
+play_flanger "La Bouche - Be my lover.wav" 0.2 5
+
